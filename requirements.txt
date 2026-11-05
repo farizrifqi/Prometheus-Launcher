@@ -1,0 +1,8 @@
+# Runtime dependencies: none.
+# The launcher uses the Python standard library. tkinter must be available;
+# the official Windows Python installer includes it.
+#
+# To rebuild the executable, install PyInstaller separately. Do not commit
+# build/ or dist/.
+#   py -3 -m pip install pyinstaller
+#   py -3 -m PyInstaller --noconfirm PrometheusLauncher.spec

@@ -1,0 +1,18 @@
+# PyInstaller outputs. Publish the .exe on GitHub Releases; do not commit it.
+build/
+dist/
+test/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local launcher config, if a copy is placed in the tree
+config.json
+.env
+
+# Editors
+.idea/
+.vscode/
